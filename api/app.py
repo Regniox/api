@@ -1,6 +1,6 @@
 from flask import Flask
-from steam import steam_bp
-from deepseek import deepseek_bp
+from .steam import steam_bp
+from .deepseek import deepseek_bp
 
 app = Flask(__name__)
 
