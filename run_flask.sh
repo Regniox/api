@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
 . venv/bin/activate
-export FLASK_APP=api/app.py
+export FLASK_APP=api.app
 export FLASK_ENV=development
-flask run --host=0.0.0.0
+flask run --host=0.0.0.0 --debug
