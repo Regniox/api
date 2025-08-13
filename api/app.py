@@ -14,4 +14,4 @@ app.register_blueprint(steam_bp)
 app.register_blueprint(deepseek_bp)
 app.register_blueprint(cnblogs_bp)
 
-CORS(app, supports_credentials=True)
+CORS(app)
